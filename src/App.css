@@ -1,0 +1,62 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: black;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.app-header nav {
+  margin-top: 10px;
+}
+
+.app-header button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  align-items: center;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.app-header button:hover {
+  background: #0056b3;
+}
+
+.game-container {
+  margin-top: 20px;
+}
+.choice-button {
+  font-size: 3em;
+  background: none;
+  border: none;
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+.choice-button:hover {
+  opacity: 0.6; /* Example: Change opacity on hover */
+  /* Add any other hover effects here */
+}
+.result {
+  font-size: 1.6em;
+}
